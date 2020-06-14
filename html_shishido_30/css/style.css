@@ -1,0 +1,176 @@
+/* ここから下に記載していく */
+.header{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+ul.header_nav{
+    display: flex;
+}
+
+.header_nav li{
+    margin-left: 40px;
+}
+
+.mainvisual{
+    height: 400px;
+    background:url("../img/mainbg.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual__title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mainvisual__subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.abut{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.abut__title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:yellow;
+   
+   }
+
+
+.abut__subtitle{
+ text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+ margin-bottom: 20px;
+
+}
+
+.abut__text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imgbox{
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.imgbox p img{
+    width: 100%;
+}
+
+.Course{
+    margin: 50px 0;
+}
+
+.Course__title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Course__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
+
+
+
+
+
+
+
+
+
+.NEWS{
+    margin: 50px 0;
+}
+
+.NEWS__title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.NEWS__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
+
+.imgnews{
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.imgnews p img{
+    width: 100%;
+}
+
+.ACCEES{
+    margin: 50px 0;
+}
+
+.ACCEES__title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ACCEES__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
+
+
+
+.CONTACT{
+    margin: 50px 0;
+}
+
+.CONTACT__title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.CONTACT__text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
+
+.formpost{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
